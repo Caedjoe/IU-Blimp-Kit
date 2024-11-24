@@ -28,7 +28,7 @@ while running:
     left_stick_y = joystick.get_axis(1)
     
     right_stick_x = joystick.get_axis(3)
-    right_stick_y = joystick.get_axis(4)
+    right_stick_y = joystick.get_axis(2)
     if abs(right_stick_x) < .05:
       right_stick_x = 0.0
       

@@ -4,11 +4,6 @@ import network
 import socket
 import config
 
-#pin numbers for motors
-config.up_down_motor_pin_number = 7
-config.left_motor_pin_number = 8
-config.right_motor_pin_number = 9
-
 #pin objects
 updown_motor_pin = Pin(config.up_down_motor_pin_number, Pin.OUT)
 left_motor_pin = Pin(config.left_motor_pin_number, Pin.OUT)
